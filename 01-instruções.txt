@@ -1,0 +1,11 @@
+python.exe -m venv new_venv
+.\new_venv\Scripts\Activate
+
+cd C:\Users\4901668668\Documents\Projetos_Python
+python.exe -m venv venv
+venv/Scripts/activate
+
+cd C:\Users\4901668668\Documents\App_StockON
+streamlit run start_page.py
+streamlit run main.py
+streamlit run w_Dash+ChatGPT.py
