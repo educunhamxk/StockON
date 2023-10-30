@@ -22,12 +22,10 @@ def main(df_compras, df_final, df_produtos, df_vendas_estoque, previsoes, sugest
             }
         )
         
-    if selected == 'Analytics & Predição':
-        dashboard_page(df_compras, df_final, df_produtos, df_vendas_estoque, previsoes, sugestoes)
-    elif selected == "Call to Action":
-        call_to_action_page(df_compras, df_final, df_produtos, df_vendas_estoque, previsoes, sugestoes)
-    # elif selected == 'Métricas':
-    #     metrics_page()
-    elif selected == 'Feedback':
-        feedback_page()
+    # if selected == 'Analytics & Predição':
+    #     dashboard_page(df_compras, df_final, df_produtos, df_vendas_estoque, previsoes, sugestoes)
+    # elif selected == "Call to Action":
+    #     call_to_action_page(df_compras, df_final, df_produtos, df_vendas_estoque, previsoes, sugestoes)
+    # elif selected == 'Feedback':
+    #     feedback_page()
 
